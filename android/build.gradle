@@ -24,6 +24,8 @@ apply plugin: 'com.android.library'
 android {
     compileSdkVersion 35
 
+    namespace 'com.alexmercerind.flutter_media_metadata'
+
     defaultConfig {
         minSdkVersion 21
     }
